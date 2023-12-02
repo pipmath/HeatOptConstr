@@ -1,5 +1,8 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
 cff-version: 1.2.0
-title: HeatOptConstraint
+title: Constraint Optimization - Heat Equation (HeatOptConstr)
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
@@ -10,4 +13,4 @@ authors:
     email: pritpal@kth.se
     affiliation: KTH Royal Institute of Technology
     orcid: 'https://orcid.org/0000-0002-4054-3638'
-url: 'https://github.com/pipmath/HeatOptConstraint.git'
+url: 'https://github.com/pipmath/HeatOptConstr.git'
