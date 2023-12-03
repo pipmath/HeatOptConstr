@@ -502,6 +502,6 @@ set(ax42, 'xtick', axtick2) % Remove overlapping value
 
 Lgnd = legend(Legend2, 'location', 'best');
 Lgnd.AutoUpdate = 'off';
-title('Normalized Energy Constraint', 'FontSize', 20)
+title(figtile, 'Normalized Energy Constraint', 'Interpreter', 'latex', 'FontSize', 20)
 
 end
