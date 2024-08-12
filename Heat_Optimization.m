@@ -98,7 +98,7 @@ for l = 1:length(Constr)
     E(p, 1)      = E1;
     Eiter        = E1;
 
-    % Constrain is enforced but no retraction operator is available, we limit magnitude
+    % Constraint is enforced but no retraction operator is available, we limit magnitude
     % of the step size in the bracketing method
     if IC && Constr(l) == 1
         shrnkcond = sprintf('tau0 > 1e-6 && abs(Etest/Eiter - 1) > 0.001');
