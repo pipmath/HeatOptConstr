@@ -208,7 +208,7 @@ assignin('caller', 'heat_init',    @heat_init);
         switch Constr
             % Modify RHS of Heat equation PDE, for normal element adjoint solve
             case 1
-                eval1 = sprintf('dt*u(2:x_len-1, m)');
+                eval1 = sprintf('(dt/2)*(u(2:x_len-1, m)+u(2:x_len-1, m-1))');
                 eval2 = sprintf('0');
 
             % Modify boundary condition at right end point (x=b), for gradient adjoint solve
