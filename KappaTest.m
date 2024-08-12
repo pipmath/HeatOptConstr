@@ -151,8 +151,9 @@ end % End of temporal step size loop m
 figure(1)
 hold off
 ylim([0 2])
+xlim([ep(1) ep(end)])
+set(gca,'XTick',[1e-15 1e-10 1e-5 1e0])
 set(gca,'XTickLabel',{'$10^{-15}$','$10^{-10}$','$10^{-5}$','$10^{0}$'})
-set(gca,'TickLabelInterpreter','latex')
 xlabel('$\epsilon$', 'FontSize', 20)
 stry = sprintf('$\\kappa_{%i}(\\epsilon)$', Constr+1);
 ylabel(stry, 'FontSize', 20)
@@ -163,8 +164,10 @@ title('Kappa Test', 'FontSize', 20)
 figure(2)
 hold off
 ylim([-inf 1])
+xlim([ep(1) ep(end)])
 set(gca,'YTick',[-6 -5 -4 -3 -2 -1 0])
 set(gca,'YTickLabel',{'$10^{-6}$', '$10^{-5}$', '$10^{-4}$','$10^{-3}$','$10^{-2}$','$10^{-1}$', '$10^{0}$'})
+set(gca,'XTick',[1e-15 1e-10 1e-5 1e0])
 set(gca,'XTickLabel',{'$10^{-15}$','$10^{-10}$','$10^{-5}$','$10^{0}$'})
 xlabel('$\epsilon$', 'FontSize', 20)
 stry = sprintf('$|1 - \\kappa_{%i}(\\epsilon)|$', Constr+1);
