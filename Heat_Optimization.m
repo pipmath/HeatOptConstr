@@ -388,10 +388,9 @@ ax1.ColorOrderIndex = 2;
 plot(t(1:end), u_r1(1:end), line_sty{2}, 'LineWidth', 1.2, 'MarkerSize', 10)
 hold off
 set(gca,'FontSize', 14)
-set(gca,'TickLabelInterpreter','latex')
 xlabel('$t$', 'Interpreter','LaTex', 'FontSize', 20)
 ylabel('$u(\phi(t))|_{x=b}$', 'Interpreter','LaTex', 'FontSize', 20)
-legend(Legend, 'Interpreter', 'LaTex', 'location', 'best')
+legend(Legend, 'location', 'best')
 title('Temperature of the Right Endpoint', 'FontSize', 20)
 
 %% Plot Left Neumann boundary condition
