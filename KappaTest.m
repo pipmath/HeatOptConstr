@@ -160,7 +160,7 @@ ylabel(stry, 'FontSize', 20)
 legend(Legend, 'location', 'best')
 title('Kappa Test', 'FontSize', 20)
 
-%  Log-based difference Kappa Test
+% Log-based difference Kappa Test
 figure(2)
 hold off
 ylim([-inf 1])
