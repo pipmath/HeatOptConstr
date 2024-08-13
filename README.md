@@ -14,7 +14,7 @@ Run the script `Heat_Optimization.m` to perform optimal reconstruction of the Ne
 # Citing
 Work has been published in the Journal of Computational Physics (JCP). The paper can be found [here](https://doi.org/10.1016/j.jcp.2024.113298).
 
-Pritpal Matharu and Bartosz Protas., (2024). *Adjoint-Based Enforcement of State Constraints in PDE Optimization Problems.* Journal of Computational Physics 517, 113298, 2024, https://doi.org/10.1016/j.jcp.2024.113298
+Pritpal Matharu and Bartosz Protas., (2024). *Adjoint-Based Enforcement of State Constraints in PDE Optimization Problems.* Journal of Computational Physics **517**, 113298, 2024, https://doi.org/10.1016/j.jcp.2024.113298
 
 Bibtex:
 ```
